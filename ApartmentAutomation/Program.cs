@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ApartmentAutomation.BusinessLogic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,6 +9,9 @@ namespace ApartmentAutomation
 {
     static class Program
     {
+        public static SQLHelper sqlHelper = new SQLHelper();
+        public static ExpenseRepo expenseRepo = new ExpenseRepo();
+        public static IncomeRepo incomeRepo = new IncomeRepo();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

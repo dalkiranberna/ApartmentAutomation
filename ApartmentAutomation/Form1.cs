@@ -16,5 +16,15 @@ namespace ApartmentAutomation
         {
             InitializeComponent();
         }
+
+        private void btn_Incomes_Click(object sender, EventArgs e)
+        {
+            new Incomes().Show();
+        }
+
+        private void btn_Expenses_Click(object sender, EventArgs e)
+        {
+            new Expenses().Show();
+        }
     }
 }
